@@ -31,7 +31,7 @@ const Cadastrar = () => {
                                                   </div>
                                                   <div className='form__group'>
                                                             <label htmlFor='tax_id'>CPF</label>
-                                                            <input placeholder='CPF' type='number'{...register("tax_id", { required: true })} />
+                                                            <input placeholder='000.000.000-00' type='number'{...register("tax_id", { required: true })} />
                                                             <label htmlFor='email'>E-mail</label>
                                                             <input placeholder='E-mail' type={'email'} {...register("email", { required: true })} />
                                                   </div>

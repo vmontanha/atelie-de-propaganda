@@ -16,6 +16,8 @@
           align-items: center;
           justify-content: center;
           background: url('../../assets/background-marrom.png');
+          padding-top: 50px;
+          padding-bottom: 50px;
 }
 
 .grid {
@@ -111,9 +113,6 @@ label {
 
 .btn__box {
           text-align: center;
-          margin-top: 50px;
-
-          margin-bottom: 50px;
 }
 
 .btn__submit {
