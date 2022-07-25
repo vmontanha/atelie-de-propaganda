@@ -18,11 +18,11 @@ const Login = () => {
 
                                         <div className='form_group__container grid'>
                                                   <form onSubmit={handleSubmit(onSubmitLogin)}>
-                                                            <div className='form__single'>
+                                                            <div className='form__single__login'>
                                                                       <input placeholder='Digite seu CPF' {...register("tax_id", { required: true })} />
                                                             </div>
 
-                                                            <div className='form__single'>
+                                                            <div className='form__single__login'>
                                                                       <input placeholder='Digite sua senha' type={'password'} {...register("password", { required: true })} />
                                                             </div>
 
