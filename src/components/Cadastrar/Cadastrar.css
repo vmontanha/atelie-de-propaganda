@@ -133,12 +133,10 @@ label {
 .btn__submit {
           text-align: center;
           padding: 10px 40px 10px;
-          width: 200px;
-          height: 40px;
           background-color: #e8a612;
           border: none;
           color: #fff;
           text-transform: uppercase;
           font-weight: bold;
-          border-radius: 3px;
+          border-radius: 5px;
 }

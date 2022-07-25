@@ -54,7 +54,7 @@ const Cadastrar = () => {
                                                             </select>
                                                   </div>
                                                   <div className='btn__box'>
-                                                            <input type="submit" className='btn__submit' />
+                                                            <button type="submit" className='btn__submit'>ENVIAR</button>
                                                   </div>
 
                                         </form>
