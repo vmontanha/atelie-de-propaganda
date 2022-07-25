@@ -1,0 +1,29 @@
+.header {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          height: 100vh;
+          background: url('../../assets/background.png');
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+}
+
+.header__left {
+          display: block;
+          position: relative;
+}
+
+.header__left img {
+          width: 100%;
+}
+
+.header__right img {
+          width: 40%;
+          position: relative;
+          left: 50%;
+          transform: translate(-50%, 0%);
+}
