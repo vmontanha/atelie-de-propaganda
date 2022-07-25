@@ -31,15 +31,15 @@ const Cadastrar = () => {
                                                   </div>
                                                   <div className='form__group'>
                                                             <label htmlFor='tax_id'>CPF</label>
-                                                            <input placeholder='CPF' {...register("tax_id", { required: true })} />
+                                                            <input placeholder='CPF' type='number'{...register("tax_id", { required: true })} />
                                                             <label htmlFor='email'>E-mail</label>
-                                                            <input placeholder='E-mail' {...register("email", { required: true })} />
+                                                            <input placeholder='E-mail' type={'email'} {...register("email", { required: true })} />
                                                   </div>
                                                   <div className='form__group'>
                                                             <label htmlFor='password'>Senha</label>
-                                                            <input placeholder='Digite sua senha' {...register("password", { required: true })} />
+                                                            <input placeholder='Digite sua senha' type={'password'} {...register("password", { required: true })} />
                                                             <label htmlFor='password_confirmation'>Senha</label>
-                                                            <input placeholder='Confirme sua senha' {...register("password_confirmation", { required: true })} />
+                                                            <input placeholder='Confirme sua senha' type={'password'} {...register("password_confirmation", { required: true })} />
                                                   </div>
                                                   <div className='form__group'>
                                                             <label htmlFor='company'>Empresa</label>
@@ -47,8 +47,9 @@ const Cadastrar = () => {
                                                             <label htmlFor='segment'>Classificação</label>
                                                             <select {...register("segment")}>
                                                                       <option disabled>Escolha sua categoria</option>
-                                                                      <option value="female">male</option>
-                                                                      <option value="male">other</option>
+                                                                      <option value="Gerente">Gerente</option>
+                                                                      <option value="Revendedor">Revendedor</option>
+                                                                      <option value="Distribuidor">Distribuidor</option>
                                                             </select>
                                                   </div>
                                                   {/* {errors.exampleRequired && <span>This field is required</span>} */}
