@@ -31,7 +31,8 @@ const Cadastrar = () => {
                                                   </div>
                                                   <div className='form__group'>
                                                             <label htmlFor='tax_id'>CPF</label>
-                                                            <input placeholder='000.000.000-00' type='number'{...register("tax_id", { required: true })} />
+                                                            <input placeholder='000.000.000-00' minLength={11} type='number'{...register("tax_id", { required: true })} />
+                                                            {errors.tax_id && <span>Digite im CPF válido</span>}
                                                             <label htmlFor='email'>E-mail</label>
                                                             <input placeholder='E-mail' type={'email'} {...register("email", { required: true })} />
                                                   </div>
@@ -52,7 +53,6 @@ const Cadastrar = () => {
                                                                       <option value="Distribuidor">Distribuidor</option>
                                                             </select>
                                                   </div>
-                                                  {/* {errors.exampleRequired && <span>This field is required</span>} */}
                                                   <div className='btn__box'>
                                                             <input type="submit" className='btn__submit' />
                                                   </div>
