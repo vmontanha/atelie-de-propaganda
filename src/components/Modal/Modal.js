@@ -27,7 +27,7 @@ const Modal = props => {
                     >
                               <div className="modal" onClick={props.onClose}>
                                         <div className="modal-content" onClick={e => e.stopPropagation()}>
-                                                  <a onClick={props.onClose}>
+                                                  <a onClick={props.onClose} className="close">
                                                             <img src={close} alt="" />
                                                   </a>
                                                   <div className="modal-body">

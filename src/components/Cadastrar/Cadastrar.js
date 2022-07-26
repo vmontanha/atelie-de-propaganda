@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import Header from '../Header/Header';
 import { Link } from 'react-router-dom';
 import Modal from "../Modal/Modal";
+import Footer from '../Footer/Footer';
 
 import './Cadastrar.css'
 
@@ -78,6 +79,7 @@ const Cadastrar = () => {
                                                   <p>Cadastro Realizado com sucesso!</p>
                                         </Modal >
                               </div>
+                              <Footer />
 
                     </>
 

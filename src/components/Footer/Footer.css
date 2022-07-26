@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+
+* {
+          font-family: 'Lato', sans-serif;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+.footer {
+          width: 100%;
+          display: block;
+          position: relative;
+          padding: 4rem 0 0rem;
+          margin-left: auto;
+          margin-right: auto;
+          background: url('../../assets/background-cinza.png');
+          background-position: center;
+          background-size: cover;
+}
+
+.footer__block {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+}
+
+.footer__left {
+          display: block;
+          position: relative;
+          width: 100%;
+}
+
+.footer__left h1 {
+          font-size: 34px;
+          line-height: 52px;
+          font-weight: 700;
+          text-transform: uppercase;
+          padding-bottom: 30px;
+}
+
+.footer__left p {
+          font-size: 16px;
+          text-align: justify;
+          font-weight: 400;
+          color: #9c9c9c;
+
+}
+
+.footer__right {
+          display: block;
+          position: relative;
+          width: 100%;
+          margin-top: 50px;
+}
+
+.footer__right img {
+          width: 50%;
+          position: relative;
+          left: 50%;
+          transform: translate(-50%, 00%);
+}
+
+.copyright {
+          background-color: #e8a91b;
+          width: 100%;
+          position: relative;
+          bottom: 0;
+          margin-top: 50px;
+          padding: 2rem 2rem 1rem;
+          display: flex;
+          flex-direction: column;
+}
+
+.aside__left {
+          width: 100%;
+          text-align: center;
+          color: #fff;
+          margin-bottom: 30px;
+}
+
+.aside__left p {
+          font-weight: 400;
+          font-size: 16px;
+          text-decoration: none
+}
+
+.aside__left a {
+          color: #000;
+          text-decoration: none
+}
+
+.aside__right {
+          width: 100%;
+          text-align: center;
+          color: #fff;
+}
+
+.aside__right p {
+          font-weight: 400;
+          font-size: 10px;
+}

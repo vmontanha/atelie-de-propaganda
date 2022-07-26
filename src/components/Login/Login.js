@@ -2,6 +2,7 @@ import React from 'react'
 import { useForm } from "react-hook-form";
 import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 
 import './Login.css'
 
@@ -38,6 +39,7 @@ const Login = () => {
                                                   </form>
                                         </div>
                               </div>
+                              <Footer />
                     </>
 
 
