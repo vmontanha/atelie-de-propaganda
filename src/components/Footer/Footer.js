@@ -6,9 +6,9 @@ import './Footer.css'
 const Footer = () => {
           return (
                     <div className='footer'>
-                              <div className='footer__block grid'>
+                              <div className='footer__block grid__footer'>
                                         <div className='footer__left'>
-                                                  <h1>Só quem vende curte as experiências mais diferentonas!</h1>
+                                                  <h1>Só quem vende curte as <br /> experiências mais diferentonas!</h1>
                                                   <p>
                                                             *Campanha válida de 01/02 a 31/03/2020 Vendas via Business Center e para o Setor Público não serão válidas A apuração do mês
                                                             de agosto será retroativa imagens meramente ilustrativas Realizamos todos os esforços para garantir a precisão das informações, mas não

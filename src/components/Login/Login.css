@@ -113,3 +113,35 @@ span {
           outline: none;
           text-decoration: none;
 }
+
+
+@media screen and (min-width: 768px) {
+          .grid {
+                    width: 30% !important
+          }
+
+          input {
+                    height: 4vh;
+                    font-size: 22px;
+          }
+
+          input::placeholder {
+                    font-size: 22px !important;
+                    color: #fff;
+          }
+
+          .box__cadastrase h1 {
+                    font-size: 36px !important;
+          }
+
+          .routers__group .link,
+          p {
+                    font-size: 16px !important;
+          }
+
+          .btn__submit {
+                    padding: 10px 50px 10px !important;
+                    font-size: 18px;
+                    margin-top: 30px;
+          }
+}

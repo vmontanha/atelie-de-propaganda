@@ -10,6 +10,7 @@
           justify-content: center;
           align-items: center;
           overflow: hidden;
+          padding: 10rem 0 2rem;
 }
 
 .header__left {
@@ -26,4 +27,20 @@
           position: relative;
           left: 50%;
           transform: translate(-50%, 0%);
+}
+
+@media screen and (min-width: 768px) {
+          .header {
+                    flex-direction: row;
+                    justify-content: center;
+          }
+
+          .header__left img {
+                    width: 100%;
+                    transform: translate(-30%, 0%);
+          }
+
+          .header__right img {
+                    width: 30%;
+          }
 }
