@@ -10,6 +10,7 @@ v: 1.0.0
 Contato: viniciusmassis01@hotmail.com
 
 Github URL: https://github.com/vmontanha/atelie-de-propaganda
+
 Deployment: https://atelie-de-propaganda.vercel.app/
 
 * Prévia Login Page
