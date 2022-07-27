@@ -35,7 +35,7 @@
           transform: translate(90%, 60%);
           position: relative;
           display: block;
-          z-index: 999;
+          cursor: pointer;
 }
 
 .modal.enter-done .modal-content {
@@ -64,4 +64,19 @@
 
 a img {
           width: 14px;
+}
+
+
+@media screen and (min-width: 768px) {
+          .modal-content {
+                    width: 40%;
+          }
+
+          .modal-body p {
+                    font-size: 36px !important;
+          }
+
+          a img {
+                    width: 20px;
+          }
 }
