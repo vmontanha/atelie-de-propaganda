@@ -12,9 +12,9 @@ Contato: viniciusmassis01@hotmail.com
 Github URL: https://github.com/vmontanha/atelie-de-propaganda
 Deployment: https://atelie-de-propaganda.vercel.app/
 
-* SignUp Mobile
+* Prévia Login Page
 
-![SignUp Mobile](/src/layout/atelie-de-propaganda.vercel.app_.png)
+![Prévia](/src/layout/atelie-de-propaganda.vercel.app_.png)
 
 ## Scripts de Desenvolvimento
 
